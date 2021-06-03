@@ -1,0 +1,19 @@
+#Rooms
+room Hall
+room Kitchen
+room Storage
+room Bedroom
+
+#Doors
+door N-S open Hall Bedroom
+door N-S closed Storage Kitchen
+door E-W locked Hall Storage
+door E-W open Bedroom Kitchen
+
+#Items
+item box Storage Stationary
+item hour_glass Kitchen MOVE
+item key Bedroom Use unlock
+
+#Start Position
+start Hall
